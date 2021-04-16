@@ -1,0 +1,140 @@
+
+<!doctype html>
+<html lang="ru">
+  <head>
+    <!-- Обязательные метатеги -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Страничка Прокопцева Александра</title>
+  </head>
+  <body>
+    <!-- Меню -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+              <img src="https://cdn4.iconfinder.com/data/icons/eon-ecommerce-i-1/32/thumb_good_like_nice-128.png">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Про себя</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Я умею</a>
+              </li>            
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Мой стаж
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" id="html-menu" href="#">HTML</a></li>
+                  <li><a class="dropdown-item" id="css-menu" href="#">CSS</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" id="js-menu" href="#">JS</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- Конец меню -->
+    <!-- Про меня -->
+      <div class="container">
+          <div class="row ">
+              <div class="col-md-9 my-text">
+                  <h1>Меня зовут Александр Прокопцев</h1>
+                  <h2>Мне 16 лет</h2>
+                  <h2>Про себя</h2>
+                  <button id="contact" type="button" class="btn btn-outline-success btn-lg">Контакты</button>
+              </div>
+              <div class="col-md-3 my-photo">
+                  <img src="https://cdn2.iconfinder.com/data/icons/scenarium-vol-1-2/128/022_workspace_workplace_beard_guy_man_laptop_computer-128.png">
+              </div>
+          </div>
+      </div>
+    <!-- Конец про меня -->
+    <!-- Контакты -->
+      <div class="container-fluid mt-5" id="contact-block">
+          <div class="row">
+              <div class="col-md-2">
+                  <h3>+79787148592</h3>
+              </div>
+              <div class="col-md-2">
+                  <a href="https://vk.com/never_mind_2">
+                      <img src="https://cdn1.iconfinder.com/data/icons/social-media-icon-1/112/vk-256.png" class="social">
+                  </a>
+              </div>
+              <div class="col-md-2">
+                <a href="https://www.viber.com/ru/">
+                    <img src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Viber-256.png" class="social">
+                </a>
+              </div>
+              <div class="col-md-2">
+                <a href="#">
+                    <img src="https://cdn0.iconfinder.com/data/icons/brands-colored-2/208/whatsup-social-network-brand-logo-256.png" class="social phone">
+                </a>
+              </div>
+              <div class="col-md-2">
+                <a href="https://web.telegram.org/#/login">
+                    <img src="https://cdn0.iconfinder.com/data/icons/social-media-2092/100/social-56-256.png"  class="social ">
+                </a>
+              </div>
+              
+          </div>
+      </div>
+    <!-- Конец Контакты -->
+    
+    <!-- Я умею  -->
+    <h1 class="no">ИМЕЮ ОПЫТ РАБОТЫ С:</h1>
+      <div class="container mt-5 ">
+          <div class="row">
+              <div class="col-md-3 html">
+                <div class="card " style="width: 13rem;">
+                    <img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/10-html5-256.png" class="card-img-top img-fluid ">
+                    <div class="card-body">
+                      <p class="card-text">Верстка HTML страниц</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-md-3 css">
+                <div class="card" style="width: 13rem;">
+                    <img src="https://cdn1.iconfinder.com/data/icons/social-media-logos-7/64/css-3-128.png" class="card-img-top img-fluid css2" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">CSS</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-md-3 js">
+                <div class="card" style="width: 13rem;">
+                    <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/187_Js_logo_logos-128.png" class="card-img-top js4" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">JavaScript</p>
+                    </div>
+                  </div>
+              </div>
+              
+              </div>
+          </div>
+      </div>
+    <!-- Конец я умею -->
+
+    <!-- Карусель -->
+      
+    <!-- Конец карусель -->
+
+
+ 
+    <!-- Вариант 1: Bootstrap в связке с Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+
+    
+  </body>
+</html>
